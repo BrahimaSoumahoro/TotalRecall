@@ -14,6 +14,7 @@
    /* 1. We use the "=" operator 
     2. Also with the "=" operator
     3. With "=" operator
+*/
     4.  /* Declare: is the fact of choosing then establishing a variable telling the program its identity and nature (what type of element it is)
             Assigning: is giving the appropriate value to the variable for the purpose of the program, as giving a name to your child
             Define:is the allocation or granting or putting aside of the memory space / storage for that variable
@@ -21,8 +22,51 @@
     5. Pseudocoding is the blueprint of the program. it uses plain human language to describe the procedural structures and steps of the program 
 
         Pseudocode is used to for to find errors (debugging) the program and also explain the program and its procedural structures and steps to non-programmers. 
+*/
 
 // B. Strings
+         /* Q1: Creating a variable called firstVariable */
+         let firstVariable; 
+
+         /* Q2:Assigning "Hello world!" to the variable firstVariable*/
+        firstVariable = "Hello World"; 
+
+        /*to display the variable in the console */
+        console.log(firstVariable); 
+        console.log (typeof firstVariable);
+
+        firstVariable = "2023"; 
+        console.log (typeof firstVariable, "2023 here is still a string");
+
+        /*Converting firstVariable from a string to a number */
+        firstVariable = parseInt("2023");
+
+        /*to display the variable in the console */
+        console.log(firstVariable); 
+        console.log (typeof firstVariable);
+
+
+               
+
+
+        let secondVariable;
+        secondVariable = firstVariable;
+        console.log(secondVariable, "this is ReAssignment of firstVariable into number");
+        console.log (typeof secondVariable);
+
+        /*Changing secondVariable from number to string */
+        let text = secondVariable.toString();
+        console.log (typeof text, "back to string");
+
+
+        // Q6: the value of firstVariable 
+        
+        firstVariable.valueOf();
+        console.log(firstVariable, "value of firstVariable");
+
+        /* Q7: Creating a variable */
+        let yourName = "Brahima Soumahoro";
+        console.log("Hello, my name is " + yourName);
 
 // C. Booleans
 // D. The Farm
