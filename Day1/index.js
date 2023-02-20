@@ -119,7 +119,8 @@
 // This is GOOD: for(let i = 0; i < 100; i++)
 // This is NO GOOD: for(i = 0; i < 100; i++)
 
-        // A. The Basics
+// A. The Basics
+
 /* Q1 : Write a loop that will print out all the numbers from 0 to 10, inclusive*/   
 
 // let num = [];
@@ -138,15 +139,32 @@
         
 // Q3: Write a loop that will print out every third number starting with 12 and going no higher than 4000    
 
-        let i = 12; 
-                while (i < 4000) {
-                num = i += 3;
-                console.log(" The number is "  +num);
-                // console.log(typeof num);
-        }    
+        // let i = 12; 
+        //         while (i < 4000) {
+        //         num = i += 3;
+        //         console.log(" The number is "  +num);
+        //         // console.log(typeof num);
+        // }    
 
 
 // B. Get even
+        // let i = 1; 
+        // while (i <= 100) {
+        // num = i++;
+        // console.log(" The number is "  +num);
+        // }
+
+
+        let i = 1; 
+        while (i <= 100) {
+        if (i %2 == 0 ) {
+                console.log(i + " The number is Even");
+        }
+        i++
+        }
+
+
+// console.log(typeof num);
 // C. Give me Five
 // D. Savings account
 //_____________________________________________________________
