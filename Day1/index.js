@@ -129,10 +129,11 @@
 //         }  
 
 /* Write a loop that will print out all the numbers from 10 up to and including 400*/       
-let num = [];
+// let num = [];
         for ( let i = 10; i <= 400; i++) {
                 num = + i;
                 console.log(" The number is "  +num);
+                console.log(typeof num);
         }    
 
 
