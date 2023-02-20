@@ -25,83 +25,91 @@
 */
 
 // B. Strings
-         /* Q1: Creating a variable called firstVariable */
-         let firstVariable; 
+//          /* Q1: Creating a variable called firstVariable */
+//          let firstVariable; 
 
-         /* Q2:Assigning "Hello world!" to the variable firstVariable*/
-        firstVariable = "Hello World"; 
+//          /* Q2:Assigning "Hello world!" to the variable firstVariable*/
+//         firstVariable = "Hello World"; 
 
-        /*to display the variable in the console */
-        console.log(firstVariable); 
-        console.log (typeof firstVariable);
+//         /*to display the variable in the console */
+//         console.log(firstVariable); 
+//         console.log (typeof firstVariable);
 
-        firstVariable = "2023"; 
-        console.log (typeof firstVariable, "2023 here is still a string");
+//         firstVariable = "2023"; 
+//         console.log (typeof firstVariable, "2023 here is still a string");
 
-        /*Converting firstVariable from a string to a number */
-        firstVariable = parseInt("2023");
+//         /*Converting firstVariable from a string to a number */
+//         firstVariable = parseInt("2023");
 
-        /*to display the variable in the console */
-        console.log(firstVariable); 
-        console.log (typeof firstVariable);
+//         /*to display the variable in the console */
+//         console.log(firstVariable); 
+//         console.log (typeof firstVariable);
 
 
                
 
 
-        let secondVariable;
-        secondVariable = firstVariable;
-        console.log(secondVariable, "this is ReAssignment of firstVariable into number");
-        console.log (typeof secondVariable);
+//         let secondVariable;
+//         secondVariable = firstVariable;
+//         console.log(secondVariable, "this is ReAssignment of firstVariable into number");
+//         console.log (typeof secondVariable);
 
-        /*Changing secondVariable from number to string */
-        let text = secondVariable.toString();
-        console.log (typeof text, "back to string");
+//         /*Changing secondVariable from number to string */
+//         let text = secondVariable.toString();
+//         console.log (typeof text, "back to string");
 
 
-        // Q6: the value of firstVariable 
+//         // Q6: the value of firstVariable 
         
-        firstVariable.valueOf();
-        console.log(firstVariable, "value of firstVariable");
+//         firstVariable.valueOf();
+//         console.log(firstVariable, "value of firstVariable");
 
-        /* Q7: Creating a variable */
-        let yourName = "Brahima Soumahoro";
-        console.log("Hello, my name is " + yourName);
+//         /* Q7: Creating a variable */
+//         let yourName = "Brahima Soumahoro";
+//         console.log("Hello, my name is " + yourName);
 
 
-// C. Booleans
-const a = 4;
-const b = 53;
-const c = 57;
-const d = 16;
-const e = 'Kevin';
+// // C. Booleans
+// const a = 4;
+// const b = 53;
+// const c = 57;
+// const d = 16;
+// const e = 'Kevin';
 
-console.log(a < b);
-console.log(c > d);
-console.log('Name' == 'Name');
+// console.log(a < b);
+// console.log(c > d);
+// console.log('Name' == 'Name');
 // // FOR THE NEXT TWO, USE ONLY && OR ||
-console.log(true || false);
-console.log(false && false && false && false && false || true);
-console.log(false == false);
-console.log(e == 'Kevin');
-console.log(a + b == c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
-console.log(a *
-         a == d); // note: the answer is a simple arithmetic equation, not something "weird"
-console.log(48 == '48');        // javaScript will convert '48' into a number to please the user
+// console.log(true || false);
+// console.log(false && false && false && false && false || true);
+// console.log(false == false);
+// console.log(e == 'Kevin');
+// console.log(a + b == c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
+// console.log(a *
+//          a == d); // note: the answer is a simple arithmetic equation, not something "weird"
+// console.log(48 == '48');        // javaScript will convert '48' into a number to please the user
 
-// D. The Farm
-       let animal ="cow";
-        if (animal != "cow") {
-                console.log("Hey! You're not a cow.");
-        }
-        else    {
-                console.log("mooooo");
-        }
+// // D. The Farm
+//        let animal ="cow";
+//         if (animal != "cow") {
+//                 console.log("Hey! You're not a cow.");
+//         }
+//         else    {
+//                 console.log("mooooo");
+//         }
                 
 
 
 // E. Driver's Ed
-//_____________________________________________________________
+     let arr = new Array();
+     driverAge = [16];
+     if (driverAge >= 16) {
+        console.log("BRAVO, Here are the keys!");
+     }
+
+     else {
+        console.log("Sorry, you're too young. No Keys for you!");
+     }
 
 
 
