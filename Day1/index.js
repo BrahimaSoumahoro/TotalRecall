@@ -164,19 +164,30 @@
 // console.log(typeof num);
 // C. Give me Five
 
-        let i = 0; 
-        while (i <= 100) {
-        if (i %5 == 0) {
-                console.log( "I found a " + i + " High Five");
-                console.log(typeof i);
-                if (i %3 == 0) {
-                   console.log("I found a " + i + " Three is a crowd");
+        // let i = 0; 
+        // while (i <= 100; i++) {
+        // // if (i %5 == 0) {
+        // //         console.log( "I found a " + i + " High Five");
+        //         // console.log(typeof i);
+        //         if (i %3 == 0) {
+        //            console.log("I found a " + i + " Three is a crowd");
+        //         }
+        // } else{
+        //         console.log(i + " Low five for you");
+        // }
+        
+        // } 
+
+        for (let i = 1; i <=100; i++) {
+                if (i % 5 === 0 && i % 3 === 0)   {
+                        console.log(i + " is a multiple of both 5 and 3"); 
+                } else if (i % 5 === 0){
+                console.log("I found a " + i + " High Five");
+                
+        }else if (i %3 === 0) {
+                console.log("I found a " + i + " Three is a crowd");
                 }
-        } else{
-                console.log(i + " Low five for you");
         }
-        i++
-        } 
 
 // D. Savings account
 //_____________________________________________________________
