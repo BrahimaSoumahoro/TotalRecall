@@ -120,12 +120,17 @@
 // This is NO GOOD: for(i = 0; i < 100; i++)
 
         // A. The Basics
-//    let num = [];
-//         for ( let i = 0; i <=10; i++) {
-//                 console.log(" the number is");
+/* Write a loop that will print out all the numbers from 0 to 10, inclusive*/   
 
-   let num = [];
-        for ( let i = 0; i <= 10; i++) {
+// let num = [];
+//         for ( let i = 0; i <= 10; i++) {
+//                 num = + i;
+//                 console.log(" The number is "  +num);
+//         }  
+
+/* Write a loop that will print out all the numbers from 10 up to and including 400*/       
+let num = [];
+        for ( let i = 10; i <= 400; i++) {
                 num = + i;
                 console.log(" The number is "  +num);
         }    
