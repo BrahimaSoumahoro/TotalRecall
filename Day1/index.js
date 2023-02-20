@@ -101,23 +101,36 @@
 
 
 // E. Driver's Ed
-     let arr = new Array();
-     driverAge = [16];
-     if (driverAge >= 16) {
-        console.log("BRAVO, Here are the keys!");
-     }
+//      let arr = new Array();
+//      driverAge = [16];
+//      if (driverAge >= 16) {
+//         console.log("BRAVO, Here are the keys!");
+//      }
 
-     else {
-        console.log("Sorry, you're too young. No Keys for you!");
-     }
-
-
+//      else {
+//         console.log("Sorry, you're too young. No Keys for you!");
+//      }
 
 
 
 
 // II. Loops
-// A. The Basics
+// Remember: USE let when you initialize your for loops!
+// This is GOOD: for(let i = 0; i < 100; i++)
+// This is NO GOOD: for(i = 0; i < 100; i++)
+
+        // A. The Basics
+//    let num = [];
+//         for ( let i = 0; i <=10; i++) {
+//                 console.log(" the number is");
+
+   let num = [];
+        for ( let i = 0; i <= 10; i++) {
+                num = + i;
+                console.log(" The number is "  +num);
+        }    
+
+
 // B. Get even
 // C. Give me Five
 // D. Savings account
