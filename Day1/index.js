@@ -149,17 +149,30 @@
 
 // B. Get even
      
-        let i = 1; 
+        let i = 0; 
         while (i <= 100) {
         if (i %2 == 0 ) {
                 console.log(i + " The number is Even");
+                console.log(typeof i);
+        } else{
+                console.log(i + " is Odd number");
         }
         i++
-        }
+        } 
 
 
 // console.log(typeof num);
 // C. Give me Five
+        // let i = 0; 
+        // while (i <= 100) {
+        // if (i %2 == 0 ) {
+        //         console.log(i + " The number is Even");
+        //         console.log(typeof i);
+        // } else{
+        //         console.log(i + " is Odd number");
+        // }
+        // i++
+        // } 
 // D. Savings account
 //_____________________________________________________________
 
