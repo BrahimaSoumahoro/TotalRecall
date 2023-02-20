@@ -120,7 +120,7 @@
 // This is NO GOOD: for(i = 0; i < 100; i++)
 
         // A. The Basics
-/* Write a loop that will print out all the numbers from 0 to 10, inclusive*/   
+/* Q1 : Write a loop that will print out all the numbers from 0 to 10, inclusive*/   
 
 // let num = [];
 //         for ( let i = 0; i <= 10; i++) {
@@ -128,12 +128,21 @@
 //                 console.log(" The number is "  +num);
 //         }  
 
-/* Write a loop that will print out all the numbers from 10 up to and including 400*/       
+/* Q2: Write a loop that will print out all the numbers from 10 up to and including 400*/       
 // let num = [];
-        for ( let i = 10; i <= 400; i++) {
-                num = + i;
+        // for ( let i = 10; i <= 400; i++) {
+        //         num = + i;
+        //         console.log(" The number is "  +num);
+        //         console.log(typeof num);
+        // }  
+        
+// Q3: Write a loop that will print out every third number starting with 12 and going no higher than 4000    
+
+        let i = 12; 
+                while (i < 4000) {
+                num = i += 3;
                 console.log(" The number is "  +num);
-                console.log(typeof num);
+                // console.log(typeof num);
         }    
 
 
