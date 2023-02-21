@@ -281,8 +281,14 @@ const myArray = [5, 10, 500, 20];
         // myArray.shift([0]);
         //  console.log(myArray);
 
+        // to ADD a new item in an existing array use .slpice() minimus number to add toward the front based on the index number of the wanted position, follow by a digit if we want to delete an existing item in the array at the index number.
          myArray.splice(-5,0,"Bob Marley");
          console.log(myArray);
+
+        //  Remove an item from the end of the array
+        myArray.pop();
+        console.log(myArray);
+
 
 
 // F. Biggie Smalls
