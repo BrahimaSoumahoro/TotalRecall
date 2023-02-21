@@ -270,6 +270,13 @@
 const myArray = [5, 10, 500, 20];
         myArray [4]= "Aegon";
         console.log(myArray);
+        myArray[5]= "Brahima";
+        console.log(myArray);
+        // myArray.pop([0]);
+        // console.log(myArray);
+       
+        myArray.shift([0]);
+         console.log(myArray);
 
 
 // F. Biggie Smalls
