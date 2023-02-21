@@ -165,18 +165,38 @@
 // C. Give me Five
 
 
-        for (let i = 1; i <=100; i++) {
-                if (i % 5 === 0 && i % 3 === 0)   {
-                        console.log(i + " is a multiple of both 5 and 3"); 
-                } else if (i % 5 === 0){
-                console.log("I found a " + i + " High Five");
+        // for (let i = 1; i <=100; i++) {
+        //         if (i % 5 === 0 && i % 3 === 0)   {
+        //                 console.log(i + " is a multiple of both 5 and 3"); 
+        //         } else if (i % 5 === 0){
+        //         console.log("I found a " + i + " High Five");
                 
-        }else if (i %3 === 0) {
-                console.log("I found a " + i + " Three is a crowd");
-                }
-        }
+        // }else if (i %3 === 0) {
+        //         console.log("I found a " + i + " Three is a crowd");
+        //         }
+        // }
 
 // D. Savings account
+//       Const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+//       const bank_account = 
+//       function bank_account() {
+//         console.log(sum);
+//       }
+
+function accountNumber() {
+let bank_account = '';
+const givenNumber = '0123456789';
+
+for ( let i = 0; i < 10; i++) {
+        bank_account += givenNumber[Math.floor(Math.random() * givenNumber.length)];
+
+}
+return bank_account;
+
+
+}
+const bank_account = accountNumber();
+console.log(bank_account);
 //_____________________________________________________________
 
 
