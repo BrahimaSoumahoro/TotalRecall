@@ -242,6 +242,13 @@
         console.log(quotes);
 
 // C. Accessing elements
+
+        const randomThings = [1, 10, "Hello", true];
+
+        // Q1: How do you access the 1st element in the array? 
+        /* we will access the 1st by logging the name and the index number of the that array which is 1 here */
+        console.log(randomThings[0]);
+
 // D. Change values
 // E. Mix It Up
 // F. Biggie Smalls
