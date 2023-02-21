@@ -183,21 +183,40 @@
 //         console.log(sum);
 //       }
 
-function accountNumber() {
-let bank_account = '';
-const givenNumber = '0123456789';
+// function accountNumber() {
+// let bank_account = '';
+// const givenNumber = '0123456789';
 
-for ( let i = 0; i < 10; i++) {
-        bank_account += givenNumber[Math.floor(Math.random() * givenNumber.length)];
+// for ( let i = 0; i < 10; i++) {
+//         bank_account += givenNumber[Math.floor(Math.random() * givenNumber.length)];
 
-}
-return bank_account;
+// }
+// return bank_account;
 
 
-}
-const bank_account = accountNumber();
-console.log(bank_account);
+// }
+// const bank_account = accountNumber();
+// console.log(bank_account);
 //_____________________________________________________________
+
+// function sum(0,1,2,3,4,5,6,7,8,9,10) {
+//         return ()
+// }
+
+// const numb = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(sum(...numb));
+// console.log(sum.apply(null, numb));
+
+/* ---------------------------------                */
+
+// function sum(1,2,3,4,5,6,7,8,9,10)     {
+//         return 1+2+3+4+5+6+7+8+9+10;
+// }
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10];
+// // console.log(sum(...numbers));
+// console.log(sum.apply(null, numbers));
+
 
 
 
@@ -207,8 +226,21 @@ console.log(bank_account);
 
 
 // III. Arrays & Control Flow
+
 // A. Talk about it:
+// What are the things in an array called?
+        /* values */
+
+// Do Arrays guarantee those things will be in order?
+        /* No */
+
+// What real-life thing could you model with an array?
+        /* cars and Books */
+
 // B. Easy Does It
+        let quotes = ["quote 1", "quote 2", "quote 3" ];
+        console.log(quotes);
+
 // C. Accessing elements
 // D. Change values
 // E. Mix It Up
