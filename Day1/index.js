@@ -272,10 +272,16 @@ const myArray = [5, 10, 500, 20];
         console.log(myArray);
         myArray[5]= "Brahima";
         console.log(myArray);
-        // myArray.pop([0]);
-        // console.log(myArray);
-       
-        myArray.shift([0]);
+
+        // to remove a value inside of the array by name or index number
+
+        myArray.shift("5");
+        console.log(myArray);
+        //         // or
+        // myArray.shift([0]);
+        //  console.log(myArray);
+
+         myArray.splice(-5,0,"Bob Marley");
          console.log(myArray);
 
 
