@@ -248,13 +248,20 @@
         // Q1: How do you access the 1st element in the array? 
         /* we will access the 1st by logging the name and the index number of the that array which is 1 here */
         console.log(randomThings[0]);
-
-// D. Change values: replacing the "Hello" with "World" 2 ways.
+        // Q2: replacing the "Hello" with "World" 2 ways.
         console.log(randomThings[2] = "World");
         // or
         randomThings[2] = "World";
-        console.log(randomThings); 
+        // Q3: The value has been updated, because now it shows World instead of the Hello as previously shown.
+        console.log(randomThings);
+
+
+// D. Change values 
+       
+
 // E. Mix It Up
+
+
 // F. Biggie Smalls
 // G. Monkey in the Middle
 // H. What's in Your Closet?
