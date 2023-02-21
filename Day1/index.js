@@ -237,35 +237,39 @@
 // What real-life thing could you model with an array?
         /* cars and Books */
 
-// B. Easy Does It
-        let quotes = ["quote 1", "quote 2", "quote 3" ];
-        console.log(quotes);
+// // B. Easy Does It
+//         let quotes = ["quote 1", "quote 2", "quote 3" ];
+//         console.log(quotes);
 
-// C. Accessing elements
+// // C. Accessing elements
 
-        const randomThings = [1, 10, "Hello", true];
+//         const randomThings = [1, 10, "Hello", true];
 
-        // Q1: How do you access the 1st element in the array? 
-        /* we will access the 1st by logging the name and the index number of the that array which is 1 here */
-        console.log(randomThings[0]);
-        // Q2: replacing the "Hello" with "World" 2 ways.
-        console.log(randomThings[2] = "World");
-        // or
-        randomThings[2] = "World";
-        // Q3: The value has been updated, because now it shows World instead of the Hello as previously shown.
-        console.log(randomThings);
+//         // Q1: How do you access the 1st element in the array? 
+//         /* we will access the 1st by logging the name and the index number of the that array which is 1 here */
+//         console.log(randomThings[0]);
+//         // Q2: replacing the "Hello" with "World" 2 ways.
+//         console.log(randomThings[2] = "World");
+//         // or
+//         randomThings[2] = "World";
+//         // Q3: The value has been updated, because now it shows World instead of the Hello as previously shown.
+//         console.log(randomThings);
 
 
-// D. Change values 
-        const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
-        console.log(ourClass[2]);
-        ourClass[4] = "Octocat";
-        console.log(ourClass);
-        ourClass.unshift("Cloud City");
-        console.log(ourClass);
+// // D. Change values 
+//         const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+//         console.log(ourClass[2]);
+//         ourClass[4] = "Octocat";
+//         console.log(ourClass);
+//         ourClass.unshift("Cloud City");
+//         console.log(ourClass);
        
 
 // E. Mix It Up
+        /* Adding an additional item to an Array without using .slice() */        
+const myArray = [5, 10, 500, 20];
+        myArray [4]= "Aegon";
+        console.log(myArray);
 
 
 // F. Biggie Smalls
