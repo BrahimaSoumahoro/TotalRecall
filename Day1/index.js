@@ -257,6 +257,12 @@
 
 
 // D. Change values 
+        const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+        console.log(ourClass[2]);
+        ourClass[4] = "Octocat";
+        console.log(ourClass);
+        ourClass.unshift("Cloud City");
+        console.log(ourClass);
        
 
 // E. Mix It Up
