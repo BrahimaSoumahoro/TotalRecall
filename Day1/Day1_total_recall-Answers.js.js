@@ -394,7 +394,7 @@
 
 
 
-// IV. Functions
+//  Functions
 
 // Part A. PrintGreeting
 // const printGreeting = (name) => {
@@ -423,8 +423,8 @@
 // 	}
 // };
 // console.log(isAVowel("a"));
-// E.
-// F.
+// 
+// Part F.  getMultipleLengths
 //  const getMultipleLengths = (strArr) => {
 // 	const multipleLengthArray = [];
 // 	for (f = 0; f < strArr.length; f++){
@@ -478,49 +478,49 @@ console.log(user);
 user.location = "Irvington";
 
 // Part D.
-user.purchased.push("carbohydrates");
-user.purchased.push("peace of mind");
-user.purchased.push("Merino jodhpurs");
+// user.purchased.push("carbohydrates");
+// user.purchased.push("peace of mind");
+// user.purchased.push("Merino jodhpurs");
 
-console.log(user.purchased[2]);
+// console.log(user.purchased[2]);
 
-//  Part E. OWO : Object-within-object
+// //  Part E. OWO : Object-within-object
 
-user.friend = {
-	name: "Grace Hopper",
-	age: 85,
-	location: "Irvington",
-	purchased: [], 
-}; 
-console.log(user.friend.name);
-console.log(user.friend.location);
-user.friend.age -= 30;
-console.log(user.friend.age);
-user.friend.purchased.push("The One Ring");
-user.friend.purchased.push("A latte");
-console.log(user.friend.purchased);
-console.log(user.friend.purchased[1]);
+// user.friend = {
+// 	name: "Grace Hopper",
+// 	age: 85,
+// 	location: "Irvington",
+// 	purchased: [], 
+// }; 
+// console.log(user.friend.name);
+// console.log(user.friend.location);
+// user.friend.age -= 30;
+// console.log(user.friend.age);
+// user.friend.purchased.push("The One Ring");
+// user.friend.purchased.push("A latte");
+// console.log(user.friend.purchased);
+// console.log(user.friend.purchased[1]);
 
-// Part F.
-for (let i = 0; i < user.purchased.length; i++) {
-	console.log(user.purchased[i]);
-}
+// // Part F.
+// for (let i = 0; i < user.purchased.length; i++) {
+// 	console.log(user.purchased[i]);
+// }
 
-for (let i = 0; i < user.friend.purchased.length; i++) {
-	console.log(user.friend.purchased[i]);
-}
+// for (let i = 0; i < user.friend.purchased.length; i++) {
+// 	console.log(user.friend.purchased[i]);
+// }
 
-// G.
-function updateUser() {
-	user.age++,
-	user.name.toupperCase();
-}
-function oldAndLoud(person) {
-	person.age++;
-	person.name = person.name.toupperCase();
-}
-oldAndLoud(user);
-console.log(user);
+// // G.
+// function updateUser() {
+// 	user.age++,
+// 	user.name.toupperCase();
+// }
+// function oldAndLoud(person) {
+// 	person.age++;
+// 	person.name = person.name.toupperCase();
+// }
+// oldAndLoud(user);
+// console.log(user);
 //______________________________________________________
 
 
